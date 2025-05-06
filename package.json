@@ -2,10 +2,9 @@
   "name": "grpc",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {
-    "nodemon": "^3.1.10"
-  },
   "scripts": {
+    "client": "node client/index.js",
+    "server": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
